@@ -1,6 +1,6 @@
-#include <stdio.h>
-
+#include <iostream>
+using namespace std;
 int main() {
-    printf("Hello, World from program2.c!\n");
+    cout<<("Hello, World from program2.c!\n");
     return 0;
 }

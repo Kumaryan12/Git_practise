@@ -1,6 +1,11 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
-int main() {
-    printf("Hello, World from program1.c!\n");
+int sum(int a, int b){
+    return a+b;
+}
+int main (){
+    cout<<("the sum of the 2 numbers is %d", sum(5,10));
     return 0;
 }
+
